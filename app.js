@@ -1,5 +1,5 @@
-var text = prompt('How many digits is your password? (Number between 4 and 6)');
-var num = parseInt(text);
+// var text = prompt('How many digits is your password? (Number between 4 and 6)');
+// var num = parseInt(text);
 
 function random() {
   Math.floor(Math.random() * 9)+1;
