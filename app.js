@@ -4,6 +4,6 @@ var num = parseInt(text);
 
 if (num === 6) {
   for(i = 0; i < 7; i++) {
-    document.getElementByClassName('password').innerHTML = random;
+    document.getElementsByClassName('password').innerHTML = random;
   };
 };
