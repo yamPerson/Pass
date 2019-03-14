@@ -1,4 +1,4 @@
-var lOrN = prompt('Do you want a letter or number password? (l/n)');
+//var lOrN = prompt('Do you want a letter or number password? (l/n)');
 
 function random() {
   return Math.floor(Math.random() * 9) + 1;
@@ -9,7 +9,7 @@ function enter() {
   return chars;
 }
                   
-if (lOrN === 'n') {
+//if (lOrN === 'n') {
   
   var digit = prompt('How many digits is your password?');
   var num = parseInt(digit);
@@ -22,7 +22,7 @@ if (lOrN === 'n') {
       document.write(random());
     }
   }
-} else { 
+/*} else { 
   var number = prompt('How many characters do you want to add?');
   var characters = [''];
   
@@ -31,5 +31,5 @@ if (lOrN === 'n') {
     characters.push(chars);
     document.write('<br>');
     document.write(characters);
-  }
+  }*/
   
