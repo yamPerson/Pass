@@ -1,4 +1,4 @@
-var lOrN = prompt('Do you want a letter or number password? (l/n));
+var lOrN = prompt('Do you want a letter or number password? (l/n)');
 
 function random() {
   return Math.floor(Math.random() * 9) + 1;
